@@ -241,9 +241,8 @@ session_start();
                     if($answer == 'C'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 1000000;
                         $bank = $_SESSION["bank"];
-                        echo '<div><h1>You are a millionaire!</h1></div>';
-                        echo '<div><h4>Current Bank: $'. "$bank".'</h4></div>';
-                        echo '<p><input id="submit" type="submit" value="Next Question" name="submit" /></p>'; 
+                        echo '<div><h1>You won!</h1></div>';
+                        echo '<div><h4>Current Bank: $'. "$bank".'</h4></div>'; 
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                     else{

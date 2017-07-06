@@ -1,6 +1,8 @@
 body {
 	text-align: center;
 	background-color: navy;
+	background-image: url("millionaire.jpg");
+	background-size: cover;
 	font-family: serif;
 	color: white;
 }
