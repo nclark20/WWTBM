@@ -9,8 +9,6 @@ session_unset();
     </head>
     <body>
         <?php
-        // put your code here
-        
         $_SESSION["bank"]=0;
         $_SESSION["question"] = 1;
         ?>	
