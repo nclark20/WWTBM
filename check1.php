@@ -12,8 +12,8 @@ session_start();
                 <form action="mill1.php" method="post">
 		<?php                
                 $answer = $_POST['q1'];
-                if($_SESSION["question"]===2){
-                    
+                if($_SESSION["question"]===1){
+                    $_SESSION["question"]++;
                     if($answer == 'A'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 100;
                         $bank = $_SESSION["bank"];
@@ -28,8 +28,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===3){
-                    
+                else if($_SESSION["question"]===2){
+                    $_SESSION["question"]++;
                     if($answer == 'B'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 200;
                         $bank = $_SESSION["bank"];
@@ -44,8 +44,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===4){
-                    
+                else if($_SESSION["question"]===3){
+                    $_SESSION["question"]++;
                     if($answer == 'C'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 300;
                         $bank = $_SESSION["bank"];
@@ -60,8 +60,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===5){
-                    
+                else if($_SESSION["question"]===4){
+                    $_SESSION["question"]++;
                     if($answer == 'D'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 500;
                         $bank = $_SESSION["bank"];
@@ -76,8 +76,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===6){
-                    
+                else if($_SESSION["question"]===5){
+                    $_SESSION["question"]++;
                     if($answer == 'A'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 1000;
                         $bank = $_SESSION["bank"];
@@ -92,8 +92,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===7){
-                    
+                else if($_SESSION["question"]===6){
+                    $_SESSION["question"]++;
                     if($answer == 'B'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 2000;
                         $bank = $_SESSION["bank"];
@@ -108,8 +108,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===8){
-                    
+                else if($_SESSION["question"]===7){
+                    $_SESSION["question"]++;
                     if($answer == 'C'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 4000;
                         $bank = $_SESSION["bank"];
@@ -124,8 +124,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===9){
-                    
+                else if($_SESSION["question"]===8){
+                    $_SESSION["question"]++;
                     if($answer == 'D'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 8000;
                         $bank = $_SESSION["bank"];
@@ -140,8 +140,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===10){
-                    
+                else if($_SESSION["question"]===9){
+                    $_SESSION["question"]++;
                     if($answer == 'A'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 16000;
                         $bank = $_SESSION["bank"];
@@ -156,8 +156,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===11){
-                    
+                else if($_SESSION["question"]===10){
+                    $_SESSION["question"]++;
                     if($answer == 'B'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 32000;
                         $bank = $_SESSION["bank"];
@@ -172,8 +172,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===12){
-                    
+                else if($_SESSION["question"]===11){
+                    $_SESSION["question"]++;
                     if($answer == 'C'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 64000;
                         $bank = $_SESSION["bank"];
@@ -188,8 +188,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===13){
-                    
+                else if($_SESSION["question"]===12){
+                    $_SESSION["question"]++;
                     if($answer == 'D'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 125000;
                         $bank = $_SESSION["bank"];
@@ -204,8 +204,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===14){
-                    
+                else if($_SESSION["question"]===13){
+                    $_SESSION["question"]++;
                     if($answer == 'A'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 250000;
                         $bank = $_SESSION["bank"];
@@ -220,8 +220,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===15){
-                    
+                else if($_SESSION["question"]===14){
+                    $_SESSION["question"]++;
                     if($answer == 'B'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 500000;
                         $bank = $_SESSION["bank"];
@@ -236,8 +236,8 @@ session_start();
                         echo '<h4><a href="index.php">Play Again</a></h4>';
                     }
                 }
-                else if($_SESSION["question"]===16){
-                    
+                else if($_SESSION["question"]===15){
+                    $_SESSION["question"]++;
                     if($answer == 'C'){
                         $_SESSION["bank"] = $_SESSION["bank"] + 1000000;
                         $bank = $_SESSION["bank"];

@@ -13,7 +13,7 @@ session_start();
             echo "Stage 1";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
                 if($random === 1){
                         echo '<div id="question"><h2>In the Harry Potter series, what is Dumbledore\'s full name?</h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -61,7 +61,7 @@ session_start();
             echo "Stage 2";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>Which of the following races is not included in the Triple Crown of horse racing? </h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -109,7 +109,7 @@ session_start();
             echo "Stage 3";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>Which fruit does not have a pit?</h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -157,7 +157,7 @@ session_start();
             echo "Stage 4";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>What sports equipment is designed to fall over if it tilts over 7 ½ degrees? </h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -205,7 +205,7 @@ session_start();
             echo "Stage 5";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>What is the only metal that is liquid at room temperature?</h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -253,7 +253,7 @@ session_start();
             echo "Stage 6";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>What 2004 movie character loves Tater Tots?</h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -301,7 +301,7 @@ session_start();
             echo "Stage 7";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>In what U. S. city was the original CSI tv show set? </h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -349,7 +349,7 @@ session_start();
             echo "Stage 8";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>What did a 1923 Illinois law declare as the official state language? </h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -397,7 +397,7 @@ session_start();
             echo "Stage 9";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>Which of the following is not a U.S. state capital?</h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -445,7 +445,7 @@ session_start();
             echo "Stage 10";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>Who holds the NHL record for most career goals?</h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -493,7 +493,7 @@ session_start();
             echo "Stage 11";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>Which of these animals is not a ruminant?</h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -541,7 +541,7 @@ session_start();
             echo "Stage 12";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>In what state is the Grand Teton National Park? </h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -589,7 +589,7 @@ session_start();
             echo "Stage 13";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>Which state does not have a lottery? </h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -637,7 +637,7 @@ session_start();
             echo "Stage 14";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+              
             if($random === 1){
                         echo '<div id="question"><h2>Which president was well known as being cold and aloof? </h2></div>';
                         echo '<form action="check1.php" method="post">';
@@ -685,7 +685,7 @@ session_start();
             echo "Stage 15";
             echo '<br />';
             $random = rand(1,3);
-            $_SESSION["question"]++; 
+             
             if($random === 1){
                         echo '<div id="question"><h2>What kind of scientist would study Pele’s tears? </h2></div>';
                         echo '<form action="check1.php" method="post">';
